@@ -1,7 +1,5 @@
 # Maria Belkina
 
-Builder at the intersection of knowledge systems and AI infrastructure.
-
 I work on tools that make large collections of ideas navigable, by structure that emerges from the content itself.
 
 ---
