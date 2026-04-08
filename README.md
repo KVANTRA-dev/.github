@@ -1,5 +1,6 @@
 # Maria Belkina
 
+
 I work on tools that make large collections of ideas navigable, by structure that emerges from the content itself.
 
 ---
@@ -19,13 +20,6 @@ Three modes: graph traversal · semantic cores · hierarchy levels
 - Researchers managing large note collections (Obsidian, Zettelkasten)
 - Scientists and academics who think in systems and cross-domain connections
 - Developers building AI-augmented knowledge workflows
-
----
-
-### Background
-
-Systems thinking · knowledge representation · AI tooling  
-Novosibirsk, Russia
 
 ---
 
