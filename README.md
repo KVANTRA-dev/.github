@@ -1,6 +1,6 @@
 # KVANTRA
 
-Building tools for semantic knowledge organization.
+Building tools for knowledge base organization.
 
 ---
 
