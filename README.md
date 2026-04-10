@@ -1,26 +1,40 @@
-# Maria Belkina
+# KVANTRA
 
-
-I work on tools that make large collections of ideas navigable, by structure that emerges from the content itself.
-
----
-
-### What I'm building
-
-**[Nouz](https://github.com/KVANTRA-dev/NOUZ-MCP)** — a semantic knowledge engine for Obsidian  
-MCP server that classifies notes by meaning. Builds a DAG over your vault.  
-Three modes: graph traversal · semantic cores · hierarchy levels
-
-> *Structure emerges from content. Not from folders.*
+Building tools for semantic knowledge organization.
 
 ---
 
-### Who uses this
+## What I'm working on
 
-- Researchers managing large note collections (Obsidian, Zettelkasten)
-- Scientists and academics who think in systems and cross-domain connections
-- Developers building AI-augmented knowledge workflows
+**[NOUZ](https://github.com/KVANTRA-dev/NOUZ-MCP)** — an MCP server for Obsidian that turns a vault into a structured knowledge graph.
+
+The core idea: instead of organizing notes into folders manually, the system classifies them by semantic content and builds a directed acyclic graph (DAG) from the relationships you define. Classification uses cosine similarity against user-defined semantic cores — knowledge domains described as dense embedding texts.
+
+Two things happen simultaneously:
+
+**Top-down** — intent. You define a sign at the top level; it propagates down through structural (hierarchy) links. The human sets the frame.
+
+**Bottom-up** — reality. Atomic notes (quants) get classified by content embeddings. Their domain distribution rolls up as `core_mix`. When intent diverges from reality — the system surfaces `core_drift`. Not an error. A signal.
+
+Semantic bridges are proposed automatically when two notes from different domains have unexpectedly close embeddings. The system finds connections you didn't notice.
+
+Three modes — from pure graph structure (no embeddings needed) to full semantic classification with strict hierarchy validation.
+
+Everything runs locally. No cloud, no telemetry.
 
 ---
 
-`python` `obsidian` `mcp` `llm` `knowledge-graphs` `semantic-search`
+## Principles
+
+- Structure emerges from content, not from folder names
+- Human sets intent, algorithm checks reality
+- A note can belong to multiple domains — sign is a spectrum
+- Suggestions are proposals. Human decides.
+
+---
+
+## Projects
+
+| | |
+|---|---|
+| **[NOUZ-MCP](https://github.com/KVANTRA-dev/NOUZ-MCP)** | MCP server for Obsidian. Three modes: pure graph, full semantics, strict hierarchy |
