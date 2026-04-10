@@ -20,8 +20,6 @@ Semantic bridges are proposed automatically when two notes from different domain
 
 Three modes — from pure graph structure (no embeddings needed) to full semantic classification with strict hierarchy validation.
 
-Everything runs locally. No cloud, no telemetry.
-
 ---
 
 ## Principles
