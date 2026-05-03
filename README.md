@@ -1,4 +1,4 @@
-# KVANTRA
+# Semiotronika
 
 Building tools for knowledge base organization.
 
@@ -6,7 +6,7 @@ Building tools for knowledge base organization.
 
 ## What I'm working on
 
-**[NOUZ](https://github.com/KVANTRA-dev/NOUZ-MCP)** — an MCP server for Obsidian that turns a vault into a structured knowledge graph.
+**[NOUZ](https://github.com/Semiotronika/NOUZ-MCP)** — an MCP server for Obsidian that turns a vault into a structured knowledge graph.
 
 The core idea: instead of organizing notes into folders manually, the system classifies them by semantic content and builds a directed acyclic graph (DAG) from the relationships you define. Classification uses cosine similarity against user-defined semantic cores — knowledge domains described as dense embedding texts.
 
@@ -35,4 +35,4 @@ Three modes — from pure graph structure (no embeddings needed) to full semanti
 
 | | |
 |---|---|
-| **[NOUZ-MCP](https://github.com/KVANTRA-dev/NOUZ-MCP)** | MCP server for Obsidian. Three modes: pure graph, full semantics, strict hierarchy |
+| **[NOUZ-MCP](https://github.com/Semiotronika/NOUZ-MCP)** | MCP server for Obsidian. Three modes: pure graph, full semantics, strict hierarchy |
